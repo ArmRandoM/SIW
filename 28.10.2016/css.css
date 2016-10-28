@@ -50,7 +50,6 @@ div#div1
     position: relative;
     width: auto;
     left: 20px;
-    right: 20px;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
     border-left: 2px solid blue;
@@ -71,4 +70,25 @@ div#div2
     border-bottom: 2px solid blue;
     border-left: 2px solid blue;
     border-right: 2px solid blue;
+  }
+
+  h3
+  {
+    color: darkorange;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  div#divYT
+  {
+    background-image: url("cssbackground.jpg");
+    float: left;
+    left: 20px;
+    position: relative;
+    height: auto;
+    width: auto;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
   }
