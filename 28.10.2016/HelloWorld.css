@@ -1,0 +1,11 @@
+body {color: red}
+body {background-color: yellow} /*colore di sfondo del body*/
+h1 {color: blue}/*ridefinisce il colore di h1*/
+h1 {text-align: center}/*ridefinisce l'allineamento di h1*/
+h1 {font-family: Helvetica}/*font-family ridefinisce il font utilizzato da h1*/
+h1 {font-size: xx-large}/*modifica la size del testo di h1 e la ridefiniamo come xx-large*/
+/*p.myClass {color: blue} errore banale perchè lo stesso elemento avrà due ridefinizioni conflittuali*/
+p#myID {color: red !important}/* le ridefinizioni conflittuali possono essere risolte "forzando" una determinata
+                                 ridefinizione tramite l'uso di !important*/
+p {text-decoration: underline}/*sottolinea p*/
+span{text-decoration: none}
