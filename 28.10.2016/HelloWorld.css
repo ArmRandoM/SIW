@@ -9,3 +9,4 @@ p#myID {color: red !important}/* le ridefinizioni conflittuali possono essere ri
                                  ridefinizione tramite l'uso di !important*/
 p {text-decoration: underline}/*sottolinea p*/
 p {border: dotted thin red; padding: 4 px; width: 150px}/*ridefinisce le proprietà del bordo di p*/
+ul {list-style-type: square} /*ridefinisce le proprietà dell'elenco puntato*/
