@@ -11,4 +11,12 @@ p {text-decoration: underline}/*sottolinea p*/
 p {border: dotted thin red; padding: 4 px; width: 150px}/*ridefinisce le proprietà del bordo di p*/
 ul {list-style-type: square} /*ridefinisce le proprietà dell'elenco puntato*/
 li {font-family: Helvetica} /*ridefinisce le proprietà del testo dell'elenco puntato*/
-li#liID {visibility: hidden}/*rende invisibile il secondo elemento dell'elenco puntato avente come ID "liID"*/ 
+li#liID {visibility: hidden}/*rende invisibile il secondo elemento dell'elenco puntato avente come ID "liID"*/
+div
+  {
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  }
