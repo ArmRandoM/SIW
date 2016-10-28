@@ -10,3 +10,5 @@ p#myID {color: red !important}/* le ridefinizioni conflittuali possono essere ri
 p {text-decoration: underline}/*sottolinea p*/
 p {border: dotted thin red; padding: 4 px; width: 150px}/*ridefinisce le proprietà del bordo di p*/
 ul {list-style-type: square} /*ridefinisce le proprietà dell'elenco puntato*/
+li {font-family: Helvetica} /*ridefinisce le proprietà del testo dell'elenco puntato*/
+li#liID {visibility: hidden}/*rende invisibile il secondo elemento dell'elenco puntato avente come ID "liID"*/ 
