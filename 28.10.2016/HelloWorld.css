@@ -8,4 +8,4 @@ h1 {font-size: xx-large}/*modifica la size del testo di h1 e la ridefiniamo come
 p#myID {color: red !important}/* le ridefinizioni conflittuali possono essere risolte "forzando" una determinata
                                  ridefinizione tramite l'uso di !important*/
 p {text-decoration: underline}/*sottolinea p*/
-span{text-decoration: none}
+p {border: dotted thin red; padding: 4 px; width: 150px}/*ridefinisce le proprietà del bordo di p*/
