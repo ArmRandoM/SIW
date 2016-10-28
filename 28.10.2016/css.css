@@ -1,0 +1,74 @@
+body
+    {
+      /*background-color: yellow; colore di sfondo del body*/
+      background-image: url("cssbackground.jpg");
+      position: fixed;
+    }
+
+/*p.myClass {color: blue} errore banale perchè lo stesso elemento avrà due ridefinizioni conflittuali*/
+/*p#myID {color: red !important} le ridefinizioni conflittuali possono essere risolte "forzando" una determinata
+                                 ridefinizione tramite l'uso di !important*/
+
+h1
+  {
+    color: lightblue;
+    text-align: center;
+  }
+p
+  {
+    color: lightblue;
+    font-weight: bolder;
+    text-align: justify;/*allinea il testo*/
+    padding: 4 px;/*ridefinisce le proprietà del bordo di p*/
+    width: 1000px;/*ridefinisce le proprietà del bordo di p*/
+  }
+
+img.myClass
+  {
+    float: left;
+    border-width: none;
+  }
+
+h2
+  {
+    color: blue;
+    text-align: center;
+  }
+
+ul {
+      /*list-style-type: square ridefinisce le proprietà dell'elenco puntato*/
+      list-style-image: url("cssicon.png");
+    }
+
+/*li#liID {visibility: hidden} rende invisibile il secondo elemento dell'elenco puntato avente come ID "liID"*/
+
+
+div#div1
+  {
+    float: left;
+    background-image: url("css-style.png");
+    position: relative;
+    width: auto;
+    left: 20px;
+    right: 20px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+  }
+
+div#div2
+  {
+    float: left;
+    background-color: lightblue;
+    font-family: helvetica;
+    font-weight: bolder;
+    position: relative;
+    width: auto;;
+    height: auto;
+    left: 40px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+  }
