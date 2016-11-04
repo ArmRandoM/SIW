@@ -2,7 +2,6 @@ body
     {
       /*background-color: yellow; colore di sfondo del body*/
       background-image: url("cssbackground.jpg");
-      position: fixed;
     }
 
 /*p.myClass {color: blue} errore banale perchè lo stesso elemento avrà due ridefinizioni conflittuali*/
@@ -14,6 +13,7 @@ h1
     color: lightblue;
     text-align: center;
   }
+
 p
   {
     color: lightblue;
