@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>insert title here</title>
+    <script type="text/javascript">
+      function prova()
+      {
+        var pippo;
+        pippo = prompt("Inserisci un valore");
+        alert("il valore di pippo è " + pippo);
+      }
+      prova();
+      var f1 = function(p)
+              {
+                var pippo;
+                pippo = prompt(p + " : Inserisci un valore");
+                alert("il valore di pippo è " + pippo);
+              }
+      f1('salve');
+      var f2 = f1;
+      f2('ola');
+    </script>
+    <script type="text/javascript" src="JavasCript.10.11.2016.js">
+
+    </script>
+  </head>
+  <body>
+    <input type="button" onclick="f1File('ciao')" name="button" value="clicca qui">
+    <a href="JavaScript:alert('cliccate anche qui')">clicca sul link</a>
+  </body>
+</html>
