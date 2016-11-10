@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="Esercizio3.js">
+
+    </script>
+    <script type="text/javascript">
+      var nome = prompt("Nome");
+      var trovato = false;
+      for( var i = 0; i < persone.length; i++ )
+      {
+        if( persone[i].nome == nome)
+        {
+            alert("Sei un amministratore");
+            trovato = true;
+        }
+      }
+      if( !trovato )
+        alert("Non sei un amministratore");
+    </script>
+
+  </head>
+  <body>
+
+  </body>
+</html>
