@@ -12,6 +12,17 @@ function init()
 {
   var addContactButton = document.getElementById("addContact");
   addContactButton.addEventListener('click', addContact);
+
+  var resetFieldsButton = document.getElementById("resetFields");
+  resetFieldsButton.addEventListener('click', resetFields);
+}
+
+function resetFields()
+{
+  document.getElementById("FirstName").value = " ";
+  document.getElementById("LastName").value = " ";
+  document.getElementById("Phone").value = " ";
+  document.getElementById("email").value = " ";
 }
 
 function addContact()
@@ -28,16 +39,27 @@ function addContact()
   var tdLastName = document.createElement("td");
   var tdPhone = document.createElement("td");
   var tdEmail = document.createElement("td");
+  var tdAction = document.createElement("td");
+  var deleteButton = document.createElement("button");
+
+  deleteButton.addEventListener('click', function()
+  {
+    tBody.removeChild(tr);
+  });
+
+  tdAction.appendChild(deleteButton);
 
   tdFirstName.textContent = aContact.firstName;
   tdLastName.textContent = aContact.lastName;
   tdPhone.textContent = aContact.phone;
   tdEmail.textContent = aContact.email;
+  deleteButton.textContent = "DeleteContact";
 
   tr.appendChild(tdFirstName);
   tr.appendChild(tdLastName);
   tr.appendChild(tdPhone);
   tr.appendChild(tdEmail);
+  tr.appendChild(tdAction);
 
   tBody.insertBefore(tr, lastRow);
 }
