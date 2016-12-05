@@ -19,10 +19,10 @@ function init()
 
 function resetFields()
 {
-  document.getElementById("FirstName").value = " ";
-  document.getElementById("LastName").value = " ";
-  document.getElementById("Phone").value = " ";
-  document.getElementById("email").value = " ";
+  document.getElementById("FirstName").value = "";
+  document.getElementById("LastName").value = "";
+  document.getElementById("Phone").value = "";
+  document.getElementById("email").value = "";
 }
 
 function addContact()
