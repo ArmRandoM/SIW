@@ -61,7 +61,8 @@ function addContact()
   tr.appendChild(tdEmail);
   tr.appendChild(tdAction);
 
-  tBody.insertBefore(tr, lastRow);
+  if( tdFirstName.textContent != "" && tdLastName.textContent != "" && tdPhone.textContent != "" && tdEmail.textContent != "")
+    tBody.insertBefore(tr, lastRow);
 }
 
 function createContact()
