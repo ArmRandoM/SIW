@@ -101,8 +101,8 @@ function addContact()
   tdLastName.textContent = aContact.lastName;
   tdPhone.textContent = aContact.phone;
   tdEmail.textContent = aContact.email;
-  deleteButton.textContent = "DeleteContact";
-  modifyButton.textContent = "modifyContact";
+  deleteButton.textContent = "Delete Contact";
+  modifyButton.textContent = "Modify Contact";
 
   tr.appendChild(tdFirstName);
   tr.appendChild(tdLastName);
