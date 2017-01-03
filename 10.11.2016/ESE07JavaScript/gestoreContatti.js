@@ -75,6 +75,7 @@ function addContact()
   deleteButton.addEventListener('click', function()
   {
     tBody.removeChild(tr);
+    contacts.remove(aContact);
   });
 
   modifyButton.addEventListener('click', function()
